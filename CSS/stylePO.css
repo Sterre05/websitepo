@@ -1,0 +1,96 @@
+#HomePagina {
+            color:       #006699;
+            font-size:   35px;
+            text-align:  center;
+}
+
+#H1Tekst {
+         color:       black;
+         font-size:   35px;
+         text-align:  center;
+}
+
+.H3Tekst, p, .H2Tekst {
+      color:       black;
+      font-size:   20px;
+      text-align:  left;
+} 
+
+#IMG2, #IMG3 {
+     height:  350px;
+     width:   350px;
+     float:   none;
+     border:  solid;
+     border-color: white;
+     border-radius: 10px;
+}
+
+#IMG {
+     height: 500px;
+     width : 750px;
+     float : none;
+     border: solid;
+     border-color: white;
+     border-radius: 10px;
+     display:  block;
+     margin-left:  auto;
+     margin-right: auto;
+}
+
+#BodyOpmaak{
+           background-color:  #e6f7ff;
+}
+
+
+.lijst {
+       list-style-type:  disc;
+       list-style-position: inside;
+       background:       #ADD8E6;
+       padding:          20px; 
+}
+
+.one {
+     background:     #F0F8FF;
+     margin:         5px;
+}
+
+forms {
+      margin:        auto;
+      width:         100px;
+      padding:       1px;
+      border:        1px solid #CCC;
+      border-radius: 10px;
+}
+
+form div + div {
+               margin-top: 2mm;
+}
+
+label {
+      display:    inline-block;
+      width:      50px;
+      text-align: right;
+}
+
+input, text area {
+        font: 10px Sans-serif;
+        width: 300px;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+             border-color: #000
+}
+
+textarea {
+         vertical-align: top;
+         height: 5em;
+         resize: vertical;
+}
+
+.button {
+        padding-left:  90px;
+        margin-left:   5em;
+}
